@@ -1,0 +1,32 @@
+npm install eslint -D
+npx eslint --init
+/*install dependencias*/
+
+npx eslint . --fix #reparar errores
+
+/*config prettier*/
+npm i eslint-config-prettier -D
+
+-agregar en .eslintrc prettier extends al final
+npm i prettier -D
+-crear el prettierrc.json y poner llaves
+
+
+../../public/img/productos/star-wars/star-wars-1.jpg
+../../public/img/productos/star-wars/star-wars-2.jpg
+../../public/img/productos/star-wars/star-wars-3.jpg
+../../public/img/productos/star-wars/star-wars-4.jpg
+../../public/img/productos/star-wars/star-wars-5.jpg
+../../public/img/productos/star-wars/star-wars-6.jpg
+../../public/img/productos/consolas/consola-1.jpg
+../../public/img/productos/consolas/consola-2.jpg
+../../public/img/productos/consolas/consola-3.jpg
+../../public/img/productos/consolas/consola-4.jpg
+../../public/img/productos/consolas/consola-5.jpg
+../../public/img/productos/consolas/consola-6.jpg
+../../public/img/productos/diversos/diversos-1.jpg
+../../public/img/productos/diversos/diversos-2.jpg
+../../public/img/productos/diversos/diversos-3.jpg
+../../public/img/productos/diversos/diversos-4.jpg
+../../public/img/productos/diversos/diversos-5.jpg
+../../public/img/productos/diversos/diversos-6.jpg

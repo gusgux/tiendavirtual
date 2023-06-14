@@ -1,0 +1,47 @@
+.banner {
+	background-image: url(../img/banner-image.png);
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+    padding: 4.875rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+
+}
+
+.banner__img {
+    width: 360px;
+    height: 195px;
+    position: absolute;
+    z-index: -1;
+}
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.banner__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--white);
+}
+.banner__description {
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+}
+.banner__btn {
+    color: var(--white);
+    box-sizing: border-box;
+    border: 1px solid var(--btn);
+    padding: 0.75rem 1rem;
+    width: 118px;
+    height: 40px;
+    font-size: 14px;
+    background-color: var(--btn);
+}
+.banner__btn:focus-visible {
+    outline: none;
+
+}

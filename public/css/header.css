@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    width: min(100%, 1136px);
+}
+.header__container {
+    display: none;
+}
+
+.header__image {
+    width: 100px;
+    height: 28px;
+}
+.header__login {
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    padding: 0.75rem 1rem;
+    box-sizing: border-box;
+    font-weight: 600;
+    width: 133px;
+    height: 40px;
+}
+.header__login:hover {
+    background-color: #d4e4fa;
+}
+
+.header__menu {
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    box-sizing: border-box;
+    font-weight: 600;
+
+    width: 144px;
+    height: 40px;
+}
+.header__menu:hover {
+    background-color: #d4e4fa;
+}
+.header__search {
+    border: 1px solid var(--search-b);
+    font-weight: 400;
+    height: 40px;
+    font-size: 14px;
+    color: var(--search);
+    border-radius: 20px;
+    background-color: var(--search-b);
+}
+.header__search:focus-visible {
+    outline: none;
+}
+.header__searchicon::before {
+    content: "\f002";
+}
+.header__searchicon {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+}

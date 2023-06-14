@@ -1,0 +1,41 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 275px;
+    margin:5rem auto;
+
+}
+.login__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor-text);
+
+}
+.login__fields {
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+    color: var(--search);
+    width: 100%;
+    font-family: "Railway";
+
+
+}
+.login__fields:focus-visible{
+    outline: none;
+}
+.login__submit {
+    height: 62px;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--btn);
+    border: 1px solid var(--btn);
+
+}
+.login__submit:hover{
+    background-color: var(--btn-hover);
+}

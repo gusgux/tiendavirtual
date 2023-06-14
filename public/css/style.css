@@ -1,0 +1,380 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root {
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --white: #ffffff;
+    --btn: #2a7ae4;
+    --btn-hover: #5595e9;
+    --cor-text: #464646;
+    --cor-de-link: #000;
+    --line: #c8c8c8;
+    --search: #a2a2a2;
+    --search-b: #f5f5f5;
+    --sizebox: 154px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Raleway";
+    background-color: var(--cor-de-fundo);
+    /*     color: #f16a1b;
+    color: #bd93f9;
+    color: #ff9da4; */
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/*Sección Title*/
+
+/*Sección About*/
+
+/*Sección About*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+/*Mobile*/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    :root {
+        --sizebox: 164px;
+    }
+    /*header*/
+    .container-header {
+        padding: 1rem 2rem;
+    }
+    .header__container {
+        display: block;
+        margin-left: -25%;
+    }
+
+    .header__container .header__searchicon {
+        display: inline;
+    }
+
+    .header__searchicon {
+        display: none;
+    }
+
+    /*banner*/
+    .banner__title {
+        font-size: 52px;
+    }
+
+    .banner__description {
+        font-size: 22px;
+    }
+
+    /*productos*/
+    .product {
+        padding: 2rem;
+        gap: 2rem;
+    }
+    /* .product__itembox {
+        grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+    }*/
+
+    .product__img {
+        width: var(--sizebox);
+    }
+
+    .product__show {
+        font-size: 1rem;
+    }
+
+    /*footer*/
+    .footer {
+        padding: 2rem;
+        grid-template: 60px 33% 1fr 1fr / repeat(2, 1fr);
+        margin-top: 1rem;
+        justify-items: normal;
+    }
+
+    .footer__related {
+        order: 3;
+    }
+
+    .footer__related li {
+        text-align: justify;
+    }
+
+    .footer__form {
+        order: 2;
+    }
+
+    /*descripcion*/
+    .description__container {
+        flex-direction: row;
+    }
+
+    .description__img {
+        width: 254px;
+        height: 157px;
+    }
+
+    .description__product {
+        width: 434px;
+    }
+    footer {
+        padding: 2rem;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    :root {
+        --sizebox: 174px;
+    }
+    /*header*/
+    .container-header {
+        padding: 2rem 0rem;
+    }
+    .header__container {
+        display: block;
+        margin-left: -25%;
+    }
+
+    .header__container .header__searchicon {
+        display: inline;
+    }
+
+    .header__searchicon {
+        display: none;
+    }
+
+    /*banner*/
+    .banner__title {
+        font-size: 52px;
+    }
+
+    .banner__description {
+        font-size: 22px;
+    }
+
+    /*productos*/
+    .product {
+        padding: 4rem 0;
+    }
+    .product__title {
+        font-size: 2rem;
+    }
+
+    /*.product__itembox {
+        grid-template: repeat(1, 1fr) / repeat(5, 1fr);
+    }*/
+
+    .product__img {
+        width: var(--sizebox);
+    }
+
+    .product__show {
+        font-size: 1rem;
+    }
+
+    /*footer*/
+    footer {
+        padding: 4rem;
+    }
+    .footer {
+        grid-template: 1fr / repeat(3, 1fr);
+        margin-top: 1rem;
+        justify-content: space-between;
+        justify-items: normal;
+    }
+
+    .footer__related {
+        order: 2;
+    }
+
+    .footer__related li {
+        text-align: justify;
+    }
+
+    .footer__form {
+        order: 3;
+    }
+
+    .footer__related {
+        order: 3;
+    }
+
+    /*add product*/
+    .add {
+        width: 50%;
+    }
+
+    /*descripcion*/
+    .description__container {
+        flex-direction: row;
+    }
+
+    .description__img {
+        width: 560px;
+        height: 403px;
+    }
+
+    .description__title {
+        font-size: 56px;
+    }
+
+    .description__product {
+        width: 560px;
+    }
+}

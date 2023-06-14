@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "angel",
+      "email": "example@gmail.com",
+      "password": "123456gux"
+    },
+    {
+      "id": 2,
+      "name": "angelgux",
+      "email": "examplegux@gmail.com",
+      "password": "1234569gus"
+    }
+  ],
+  "products": [
+    {
+      "img": "https://www.xboxygen.com/local/cache-vignettes/L790xH448/xbox-series-x-console-ee0ef.jpg",
+      "category": "console",
+      "price": "375",
+      "product": "xbox series x",
+      "msg": "xbox series x 1tb de memoria y un mes de gamepass gratis",
+      "id": "80a4a8b8-f5a0-42a6-ad37-5861019b3949"
+    },
+    {
+      "img": "../../public/img/productos/star-wars/star-wars-1.jpg",
+      "category": "star-wars",
+      "price": "6080",
+      "product": "star-wars-1",
+      "msg": "soy un personaje de star-wars-10",
+      "id": "c218e21c-946d-4cb5-803f-103416b05bbf"
+    },
+    {
+      "img": "../../public/img/productos/star-wars/star-wars-2.jpg",
+      "category": "star-wars",
+      "price": "60",
+      "product": "star-wars-2",
+      "msg": "soy un personaje de star-wars-2",
+      "id": "a948b12c-2f4b-4f96-86d9-f461a89adb6a"
+    },
+    {
+      "img": "../../public/img/productos/star-wars/star-wars-3.jpg",
+      "category": "star-wars",
+      "price": "60",
+      "product": "star-wars-3",
+      "msg": "soy un personaje de star-wars-3",
+      "id": "e32cbf81-f568-49a3-9107-54f086f248e0"
+    },
+    {
+      "img": "../../public/img/productos/star-wars/star-wars-4.jpg",
+      "category": "star-wars",
+      "price": "60",
+      "product": "star-wars-4",
+      "msg": "soy un personaje de star-wars-4",
+      "id": "b8196e22-99a9-4d44-815a-1490325c4cc7"
+    },
+    {
+      "img": "../../public/img/productos/star-wars/star-wars-5.jpg",
+      "category": "star-wars",
+      "price": "60",
+      "product": "star-wars-5",
+      "msg": "soy un personaje de star-wars-5",
+      "id": "5ab73e1b-fb1f-49a8-a2ef-5091a2ae7fb1"
+    },
+    {
+      "img": "../../public/img/productos/star-wars/star-wars-6.jpg",
+      "category": "star-wars",
+      "price": "60",
+      "product": "star-wars-6",
+      "msg": "soy un personaje de star-wars-6",
+      "id": "5c1bbd26-76da-4b93-abba-e70b360e79f8"
+    },
+    {
+      "img": "../../public/img/productos/consolas/consola-1.jpg",
+      "category": "consola",
+      "price": "180",
+      "product": "consola-1",
+      "msg": "soy una de las mejores consolas-1",
+      "id": "5d5c27e6-4c1f-4fe4-a5a5-3d224a5a6cd7"
+    },
+    {
+      "img": "../../public/img/productos/consolas/consola-2.jpg",
+      "category": "consola",
+      "price": "180",
+      "product": "consola-2",
+      "msg": "soy una de las mejores consolas-2",
+      "id": "28b808a4-f055-4ee8-8e1b-c6bca96a18cd"
+    },
+    {
+      "img": "../../public/img/productos/consolas/consola-3.jpg",
+      "category": "consola",
+      "price": "180",
+      "product": "consola-3",
+      "msg": "soy una de las mejores consolas-3",
+      "id": "f57277f0-0013-4590-b521-f026006a0568"
+    },
+    {
+      "img": "../../public/img/productos/consolas/consola-4.jpg",
+      "category": "consola",
+      "price": "180",
+      "product": "consola-4",
+      "msg": "soy una de las mejores consolas-4",
+      "id": "6c7a536f-1d5b-4dcf-9680-cc7838d9f23f"
+    },
+    {
+      "img": "../../public/img/productos/consolas/consola-5.jpg",
+      "category": "consola",
+      "price": "180",
+      "product": "consola-5",
+      "msg": "soy una de las mejores consolas-5",
+      "id": "2f8c282f-7cfb-494f-b58b-5c5666e59723"
+    },
+    {
+      "img": "../../public/img/productos/consolas/consola-6.jpg",
+      "category": "consola",
+      "price": "180",
+      "product": "consola-6",
+      "msg": "soy una de las mejores consolas-6",
+      "id": "fc2b9777-aaaf-43c9-9003-9e11db2d0386"
+    },
+    {
+      "img": "../../public/img/productos/diversos/diversos-1.jpg",
+      "category": "camisa",
+      "price": "65",
+      "product": "camisa-1",
+      "msg": "soy una de las camisa-1",
+      "id": "728e5946-eb1c-4aba-965c-20cff1ef55a7"
+    },
+    {
+      "img": "../../public/img/productos/diversos/diversos-2.jpg",
+      "category": "camisa",
+      "price": "65",
+      "product": "camisa-nes",
+      "msg": "soy una de las camisa-nes",
+      "id": "57666854-f5ce-4f35-ab01-2d658a6ff0c1"
+    },
+    {
+      "img": "../../public/img/productos/diversos/diversos-3.jpg",
+      "category": "figura",
+      "price": "65",
+      "product": "figura sonic",
+      "msg": "soy una figura de sonic",
+      "id": "a8a08c3c-3461-4234-a932-768711238c37"
+    },
+    {
+      "img": "../../public/img/productos/diversos/diversos-4.jpg",
+      "category": "despertador",
+      "price": "80",
+      "product": "despertador-radio retro",
+      "msg": "soy un despertador-radio retro",
+      "id": "5acae001-2e8e-4f6e-a2c1-5a9b8effde76"
+    },
+    {
+      "img": "../../public/img/productos/diversos/diversos-5.jpg",
+      "category": "vr",
+      "price": "200",
+      "product": "oculus rift",
+      "msg": "lentes de realidad virtual aumentada",
+      "id": "0a6c7a27-3b63-4e7e-8780-6c2aacbaa565"
+    },
+    {
+      "img": "../../public/img/productos/diversos/diversos-6.jpg",
+      "category": "peluche",
+      "price": "70",
+      "product": "peluche pikachi",
+      "msg": "peluche de pikachu tamaño mediano de alta calidad",
+      "id": "469a48c7-b70a-449f-9bf0-0d260ae7e2df"
+    }
+  ],
+  "descripcion": []
+}
